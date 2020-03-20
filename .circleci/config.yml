@@ -43,5 +43,4 @@ jobs:
       - run: sudo pip install awscli --upgrade
       - run: aws --version
       - run: aws s3 ls
-      # Deploy project with different configuration based on the current branch
       - run: yarn run deploy
