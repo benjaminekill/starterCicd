@@ -28,7 +28,7 @@ jobs:
           - v1-dependencies-
             
 
-      - run: yarn add no-lockfile true
+      - run: yarn init
       - run: yarn install 
 
       - save_cache:
